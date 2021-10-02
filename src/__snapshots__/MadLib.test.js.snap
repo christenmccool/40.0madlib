@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`if matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="MadLib container"
+  >
+    <div
+      class="m-3 justify-content-center row"
+    >
+      <div
+        class="col"
+      >
+        <h1
+          class="MadLib-heading"
+        >
+          Madlibs!
+        </h1>
+        <form
+          class="MadLibSelect mt-4"
+        >
+          <div
+            class="justify-content-md-center row"
+          >
+            <div
+              class="col-md-6"
+            >
+              <select
+                class="MadLibSelect form-select"
+                id="title"
+                name="title"
+                required=""
+              >
+                <option
+                  disabled=""
+                  value=""
+                >
+                  Choose a MadLib:
+                </option>
+                <option
+                  value="option0"
+                >
+                  A love story
+                </option>
+                <option
+                  value="option1"
+                >
+                  Animal escapades
+                </option>
+                <option
+                  value="option2"
+                >
+                  Short but sweet
+                </option>
+              </select>
+              <button
+                class="m-4 btn btn-primary"
+                type="submit"
+              >
+                Select
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
